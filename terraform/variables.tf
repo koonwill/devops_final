@@ -20,7 +20,11 @@ variable aws_region {
   default = "eu-central-1"
 }
 
-variable aws_access_key_id {}
-variable aws_secret_access_key {}
+variable aws_access_key_id {
+    default = "YOUR_ACCESS_KEY_ID"
+}
+variable aws_secret_access_key {
+    default = "YOUR_SECRET_ACCESS_KEY"
+}
 
 
